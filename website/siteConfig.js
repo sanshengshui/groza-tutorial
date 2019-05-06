@@ -22,8 +22,8 @@ const users = [
 
 const siteConfig = {
   title: 'Groza', // Title for your website.
-  tagline: 'Groza is an open-source IoT Platform',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  tagline: 'an open-source IoT Platform',
+  url: 'https://www.grozacloud.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -100,7 +100,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/sanshengshui/Groza',
 };
 
 module.exports = siteConfig;
