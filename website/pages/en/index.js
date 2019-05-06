@@ -149,64 +149,40 @@ class Index extends React.Component {
       <Block layout="threeColumn">
         {[
           {
-            content: 'enable you to easily create processing logic of any level of complexity without needing to deploying a separate system',
+            content: 'enable you to easily create processing logic of any level of complexity without needing to deploying a separate system.',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
             title: 'Serverless IoT Rule Engine',
           },
           {
-            content: 'The content of my second feature',
+            content: 'Support multi-tenant installations out-of-the-box. Single tenant can have their own authentication and authorization scheme applied to them.',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
             title: 'Multi-tenancy',
           },
             {
-            content: 'This is the content of my feature',
+            content: 'Collect and store telemetry data in reliable way,surviving network and hardware failures',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
             title: 'Data Collection',
           },
             {
-                content: 'This is the content of my feature',
+                content: 'Seamlessly expand capacity to handreds of nodes',
                 image: `${baseUrl}img/undraw_react.svg`,
                 imageAlign: 'top',
-                title: 'Data Collection',
+                title: 'Horizontally scalable',
             },
             {
-                content: 'This is the content of my feature',
+                content: 'Supports transport  encryption for both MQTT and HTTP(s) protocols. Supports device authentication and device credentials management.',
                 image: `${baseUrl}img/undraw_react.svg`,
                 imageAlign: 'top',
-                title: 'Data Collection',
+                title: 'Security',
             },
             {
-                content: 'This is the content of my feature',
+                content: 'Designed for low publish latency(<5ms) at scale with strong durabilty guarantees',
                 image: `${baseUrl}img/undraw_react.svg`,
                 imageAlign: 'top',
-                title: 'Data Collection',
-            },
-            {
-                content: 'This is the content of my feature',
-                image: `${baseUrl}img/undraw_react.svg`,
-                imageAlign: 'top',
-                title: 'Data Collection',
-            },
-            {
-                content: 'This is the content of my feature',
-                image: `${baseUrl}img/undraw_react.svg`,
-                imageAlign: 'top',
-                title: 'Data Collection',
-            },
-            {
-                content: 'This is the content of my feature',
-                image: `${baseUrl}img/undraw_react.svg`,
-                imageAlign: 'top',
-                title: 'Data Collection',
-            },
-            {
-                content: 'This is the content of my feature',
-                image: `${baseUrl}img/undraw_react.svg`,
-                imageAlign: 'top',
-                title: 'Data Collection',
+                title: 'Low latency with durability',
             }
         ]}
       </Block>
