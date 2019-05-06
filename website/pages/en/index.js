@@ -146,13 +146,13 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="threeColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'enable you to easily create processing logic of any level of complexity without needing to deploying a separate system',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Data Collection',
+            title: 'Serverless IoT Rule Engine',
           },
           {
             content: 'The content of my second feature',
@@ -160,6 +160,54 @@ class Index extends React.Component {
             imageAlign: 'top',
             title: 'Multi-tenancy',
           },
+            {
+            content: 'This is the content of my feature',
+            image: `${baseUrl}img/undraw_react.svg`,
+            imageAlign: 'top',
+            title: 'Data Collection',
+          },
+            {
+                content: 'This is the content of my feature',
+                image: `${baseUrl}img/undraw_react.svg`,
+                imageAlign: 'top',
+                title: 'Data Collection',
+            },
+            {
+                content: 'This is the content of my feature',
+                image: `${baseUrl}img/undraw_react.svg`,
+                imageAlign: 'top',
+                title: 'Data Collection',
+            },
+            {
+                content: 'This is the content of my feature',
+                image: `${baseUrl}img/undraw_react.svg`,
+                imageAlign: 'top',
+                title: 'Data Collection',
+            },
+            {
+                content: 'This is the content of my feature',
+                image: `${baseUrl}img/undraw_react.svg`,
+                imageAlign: 'top',
+                title: 'Data Collection',
+            },
+            {
+                content: 'This is the content of my feature',
+                image: `${baseUrl}img/undraw_react.svg`,
+                imageAlign: 'top',
+                title: 'Data Collection',
+            },
+            {
+                content: 'This is the content of my feature',
+                image: `${baseUrl}img/undraw_react.svg`,
+                imageAlign: 'top',
+                title: 'Data Collection',
+            },
+            {
+                content: 'This is the content of my feature',
+                image: `${baseUrl}img/undraw_react.svg`,
+                imageAlign: 'top',
+                title: 'Data Collection',
+            }
         ]}
       </Block>
     );
