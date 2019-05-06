@@ -149,37 +149,37 @@ class Index extends React.Component {
         {[
           {
             content: 'enable you to easily create processing logic of any level of complexity without needing to deploying a separate system.',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/cloud_functions.svg`,
             imageAlign: 'top',
             title: 'Serverless IoT Rule Engine',
           },
           {
             content: 'Support multi-tenant installations out-of-the-box. Single tenant can have their own authentication and authorization scheme applied to them.',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            image: `${baseUrl}img/multi_tenancy.svg`,
             imageAlign: 'top',
             title: 'Multi-tenancy',
           },
             {
             content: 'Collect and store telemetry data in reliable way,surviving network and hardware failures',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/cloud_iot_core.svg`,
             imageAlign: 'top',
             title: 'Data Collection',
           },
             {
                 content: 'Seamlessly expand capacity to handreds of nodes',
-                image: `${baseUrl}img/undraw_react.svg`,
+                image: `${baseUrl}img/cloud_load_balancing.svg`,
                 imageAlign: 'top',
                 title: 'Horizontally scalable',
             },
             {
                 content: 'Supports transport  encryption for both MQTT and HTTP(s) protocols. Supports device authentication and device credentials management.',
-                image: `${baseUrl}img/undraw_react.svg`,
+                image: `${baseUrl}img/security.svg`,
                 imageAlign: 'top',
                 title: 'Security',
             },
             {
                 content: 'Designed for low publish latency(<5ms) at scale with strong durabilty guarantees',
-                image: `${baseUrl}img/undraw_react.svg`,
+                image: `${baseUrl}img/low_latency.svg`,
                 imageAlign: 'top',
                 title: 'Low latency with durability',
             }
