@@ -23,6 +23,7 @@ const users = [
 const siteConfig = {
   title: 'Groza', // Title for your website.
   tagline: 'an open-source IoT Platform',
+  indexDescription: 'Servless,Multi-tenancy and Low latency IOT Platform',
   url: 'https://www.grozacloud.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:

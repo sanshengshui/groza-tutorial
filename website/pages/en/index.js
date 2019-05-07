@@ -38,7 +38,7 @@ class HomeSplash extends React.Component {
     const ProjectTitle = () => (
       <h2 className="projectTitle">
         {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
+        <small>{siteConfig.indexDescription}</small>
       </h2>
     );
 
@@ -60,7 +60,7 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        <Logo img_src={`${baseUrl}img/oss_logo.png`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
@@ -92,12 +92,19 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
+        <Block id="dark">
+            {[
+                {
+                    content:
+                        'Groza is a high-performance,java based IOT Platform. ' +
+                        'Groza offers four key functionalities,which include Serverless Rule Engine,Mulit-tenancy, ' +
+                        'Horizontally scalableand provice a variety of protocols,including Mqtt,Http(s).',
+                    image: `${baseUrl}img/groza_architecture.png`,
+                    imageAlign: 'right',
+                    title: 'A high performance  IOT Platform',
+                },
+            ]}
+        </Block>
     );
 
     const TryOut = () => (
@@ -109,22 +116,22 @@ class Index extends React.Component {
               '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
               'The illustrations you see on this page are from unDraw.',
             image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            imageAlign: 'right',
+            title: 'Quick start',
           },
         ]}
       </Block>
     );
 
     const Description = () => (
-      <Block background="dark">
+      <Block id="quick_start">
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              'This guide gets you started with Groza in java with a simple working example. ',
+            image: `${baseUrl}img/code.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'Quick Start',
           },
         ]}
       </Block>
@@ -234,7 +241,9 @@ class Index extends React.Component {
           <div>
               <HomeSplash siteConfig={siteConfig} language={language} />
               <div className="mainContainer">
+                  <FeatureCallout />
                   <Features />
+                  <Description />
               </div>
           </div>
       );
